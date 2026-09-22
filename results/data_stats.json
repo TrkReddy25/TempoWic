@@ -1,0 +1,483 @@
+{
+  "n_instances": 3297,
+  "n_words": 34,
+  "n_compare": 3297,
+  "n_earlier": 3400,
+  "n_later": 3400,
+  "per_split": {
+    "train": {
+      "n_pairs": 1428,
+      "n_words": 15,
+      "n_same_meaning": 650,
+      "n_diff_meaning": 778,
+      "periods": [
+        "2019",
+        "2020"
+      ]
+    },
+    "validation": {
+      "n_pairs": 396,
+      "n_words": 4,
+      "n_same_meaning": 172,
+      "n_diff_meaning": 224,
+      "periods": [
+        "2019",
+        "2020"
+      ]
+    },
+    "test": {
+      "n_pairs": 1473,
+      "n_words": 15,
+      "n_same_meaning": 539,
+      "n_diff_meaning": 934,
+      "periods": [
+        "2020",
+        "2021"
+      ]
+    }
+  },
+  "per_word": {
+    "airdrop": {
+      "split": "test",
+      "n_compare_pairs": 98,
+      "n_uses_t1": 98,
+      "n_uses_t2": 98,
+      "t1": [
+        "2020-06"
+      ],
+      "t2": [
+        "2021-06"
+      ],
+      "prop_same_meaning": 0.5918367346938775
+    },
+    "bullpen": {
+      "split": "test",
+      "n_compare_pairs": 99,
+      "n_uses_t1": 99,
+      "n_uses_t2": 99,
+      "t1": [
+        "2020-06"
+      ],
+      "t2": [
+        "2021-06"
+      ],
+      "prop_same_meaning": 0.9090909090909091
+    },
+    "bunker": {
+      "split": "train",
+      "n_compare_pairs": 92,
+      "n_uses_t1": 92,
+      "n_uses_t2": 92,
+      "t1": [
+        "2019-06"
+      ],
+      "t2": [
+        "2020-06"
+      ],
+      "prop_same_meaning": 0.3804347826086957
+    },
+    "burnham": {
+      "split": "test",
+      "n_compare_pairs": 100,
+      "n_uses_t1": 100,
+      "n_uses_t2": 100,
+      "t1": [
+        "2020-08"
+      ],
+      "t2": [
+        "2021-08"
+      ],
+      "prop_same_meaning": 0.84
+    },
+    "containment": {
+      "split": "train",
+      "n_compare_pairs": 92,
+      "n_uses_t1": 92,
+      "n_uses_t2": 92,
+      "t1": [
+        "2019-03"
+      ],
+      "t2": [
+        "2020-03"
+      ],
+      "prop_same_meaning": 0.6630434782608695
+    },
+    "crt": {
+      "split": "test",
+      "n_compare_pairs": 99,
+      "n_uses_t1": 99,
+      "n_uses_t2": 99,
+      "t1": [
+        "2020-06"
+      ],
+      "t2": [
+        "2021-06"
+      ],
+      "prop_same_meaning": 0.31313131313131315
+    },
+    "delta": {
+      "split": "test",
+      "n_compare_pairs": 98,
+      "n_uses_t1": 98,
+      "n_uses_t2": 98,
+      "t1": [
+        "2020-08"
+      ],
+      "t2": [
+        "2021-08"
+      ],
+      "prop_same_meaning": 0.0
+    },
+    "entanglement": {
+      "split": "train",
+      "n_compare_pairs": 99,
+      "n_uses_t1": 99,
+      "n_uses_t2": 99,
+      "t1": [
+        "2019-08"
+      ],
+      "t2": [
+        "2020-08"
+      ],
+      "prop_same_meaning": 0.10101010101010101
+    },
+    "epicenter": {
+      "split": "train",
+      "n_compare_pairs": 100,
+      "n_uses_t1": 100,
+      "n_uses_t2": 100,
+      "t1": [
+        "2019-03"
+      ],
+      "t2": [
+        "2020-03"
+      ],
+      "prop_same_meaning": 0.29
+    },
+    "folklore": {
+      "split": "train",
+      "n_compare_pairs": 76,
+      "n_uses_t1": 76,
+      "n_uses_t2": 76,
+      "t1": [
+        "2019-08"
+      ],
+      "t2": [
+        "2020-08"
+      ],
+      "prop_same_meaning": 0.07894736842105263
+    },
+    "frisk": {
+      "split": "train",
+      "n_compare_pairs": 90,
+      "n_uses_t1": 90,
+      "n_uses_t2": 90,
+      "t1": [
+        "2019-02"
+      ],
+      "t2": [
+        "2020-02"
+      ],
+      "prop_same_meaning": 0.45555555555555555
+    },
+    "gala": {
+      "split": "test",
+      "n_compare_pairs": 100,
+      "n_uses_t1": 100,
+      "n_uses_t2": 100,
+      "t1": [
+        "2020-09"
+      ],
+      "t2": [
+        "2021-09"
+      ],
+      "prop_same_meaning": 0.54
+    },
+    "gaza": {
+      "split": "test",
+      "n_compare_pairs": 98,
+      "n_uses_t1": 98,
+      "n_uses_t2": 98,
+      "t1": [
+        "2020-05"
+      ],
+      "t2": [
+        "2021-05"
+      ],
+      "prop_same_meaning": 0.3979591836734694
+    },
+    "ido": {
+      "split": "test",
+      "n_compare_pairs": 91,
+      "n_uses_t1": 91,
+      "n_uses_t2": 91,
+      "t1": [
+        "2020-05"
+      ],
+      "t2": [
+        "2021-05"
+      ],
+      "prop_same_meaning": 0.16483516483516483
+    },
+    "impostor": {
+      "split": "validation",
+      "n_compare_pairs": 98,
+      "n_uses_t1": 98,
+      "n_uses_t2": 98,
+      "t1": [
+        "2019-09"
+      ],
+      "t2": [
+        "2020-09"
+      ],
+      "prop_same_meaning": 0.23469387755102042
+    },
+    "launchpad": {
+      "split": "test",
+      "n_compare_pairs": 99,
+      "n_uses_t1": 99,
+      "n_uses_t2": 99,
+      "t1": [
+        "2020-09"
+      ],
+      "t2": [
+        "2021-09"
+      ],
+      "prop_same_meaning": 0.18181818181818182
+    },
+    "lotte": {
+      "split": "validation",
+      "n_compare_pairs": 98,
+      "n_uses_t1": 98,
+      "n_uses_t2": 98,
+      "t1": [
+        "2019-09"
+      ],
+      "t2": [
+        "2020-09"
+      ],
+      "prop_same_meaning": 0.5612244897959183
+    },
+    "mask": {
+      "split": "train",
+      "n_compare_pairs": 98,
+      "n_uses_t1": 98,
+      "n_uses_t2": 98,
+      "t1": [
+        "2019-07"
+      ],
+      "t2": [
+        "2020-07"
+      ],
+      "prop_same_meaning": 0.23469387755102042
+    },
+    "milker": {
+      "split": "test",
+      "n_compare_pairs": 99,
+      "n_uses_t1": 99,
+      "n_uses_t2": 99,
+      "t1": [
+        "2020-03"
+      ],
+      "t2": [
+        "2021-03"
+      ],
+      "prop_same_meaning": 0.494949494949495
+    },
+    "monet": {
+      "split": "test",
+      "n_compare_pairs": 98,
+      "n_uses_t1": 98,
+      "n_uses_t2": 98,
+      "t1": [
+        "2020-07"
+      ],
+      "t2": [
+        "2021-07"
+      ],
+      "prop_same_meaning": 0.05102040816326531
+    },
+    "moxie": {
+      "split": "test",
+      "n_compare_pairs": 97,
+      "n_uses_t1": 97,
+      "n_uses_t2": 97,
+      "t1": [
+        "2020-03"
+      ],
+      "t2": [
+        "2021-03"
+      ],
+      "prop_same_meaning": 0.16494845360824742
+    },
+    "parasol": {
+      "split": "train",
+      "n_compare_pairs": 100,
+      "n_uses_t1": 100,
+      "n_uses_t2": 100,
+      "t1": [
+        "2019-09"
+      ],
+      "t2": [
+        "2020-09"
+      ],
+      "prop_same_meaning": 0.15
+    },
+    "paternity": {
+      "split": "train",
+      "n_compare_pairs": 100,
+      "n_uses_t1": 100,
+      "n_uses_t2": 100,
+      "t1": [
+        "2019-07"
+      ],
+      "t2": [
+        "2020-07"
+      ],
+      "prop_same_meaning": 0.78
+    },
+    "pogrom": {
+      "split": "train",
+      "n_compare_pairs": 98,
+      "n_uses_t1": 98,
+      "n_uses_t2": 98,
+      "t1": [
+        "2019-02"
+      ],
+      "t2": [
+        "2020-02"
+      ],
+      "prop_same_meaning": 0.9489795918367347
+    },
+    "primo": {
+      "split": "validation",
+      "n_compare_pairs": 100,
+      "n_uses_t1": 100,
+      "n_uses_t2": 100,
+      "t1": [
+        "2019-11"
+      ],
+      "t2": [
+        "2020-11"
+      ],
+      "prop_same_meaning": 0.23
+    },
+    "pyre": {
+      "split": "test",
+      "n_compare_pairs": 98,
+      "n_uses_t1": 98,
+      "n_uses_t2": 98,
+      "t1": [
+        "2020-04"
+      ],
+      "t2": [
+        "2021-04"
+      ],
+      "prop_same_meaning": 0.673469387755102
+    },
+    "recount": {
+      "split": "validation",
+      "n_compare_pairs": 100,
+      "n_uses_t1": 100,
+      "n_uses_t2": 100,
+      "t1": [
+        "2019-11"
+      ],
+      "t2": [
+        "2020-11"
+      ],
+      "prop_same_meaning": 0.71
+    },
+    "teargas": {
+      "split": "train",
+      "n_compare_pairs": 96,
+      "n_uses_t1": 96,
+      "n_uses_t2": 96,
+      "t1": [
+        "2019-07"
+      ],
+      "t2": [
+        "2020-07"
+      ],
+      "prop_same_meaning": 0.96875
+    },
+    "turnip": {
+      "split": "train",
+      "n_compare_pairs": 99,
+      "n_uses_t1": 99,
+      "n_uses_t2": 99,
+      "t1": [
+        "2019-05"
+      ],
+      "t2": [
+        "2020-05"
+      ],
+      "prop_same_meaning": 0.04040404040404041
+    },
+    "unlabeled": {
+      "split": "test",
+      "n_compare_pairs": 100,
+      "n_uses_t1": 100,
+      "n_uses_t2": 100,
+      "t1": [
+        "2020-03"
+      ],
+      "t2": [
+        "2021-03"
+      ],
+      "prop_same_meaning": 0.1
+    },
+    "vanguard": {
+      "split": "test",
+      "n_compare_pairs": 99,
+      "n_uses_t1": 99,
+      "n_uses_t2": 99,
+      "t1": [
+        "2020-09"
+      ],
+      "t2": [
+        "2021-09"
+      ],
+      "prop_same_meaning": 0.04040404040404041
+    },
+    "ventilator": {
+      "split": "train",
+      "n_compare_pairs": 94,
+      "n_uses_t1": 94,
+      "n_uses_t2": 94,
+      "t1": [
+        "2019-03"
+      ],
+      "t2": [
+        "2020-03"
+      ],
+      "prop_same_meaning": 0.8297872340425532
+    },
+    "villager": {
+      "split": "train",
+      "n_compare_pairs": 99,
+      "n_uses_t1": 99,
+      "n_uses_t2": 99,
+      "t1": [
+        "2019-04"
+      ],
+      "t2": [
+        "2020-04"
+      ],
+      "prop_same_meaning": 0.35353535353535354
+    },
+    "virus": {
+      "split": "train",
+      "n_compare_pairs": 95,
+      "n_uses_t1": 95,
+      "n_uses_t2": 95,
+      "t1": [
+        "2019-03"
+      ],
+      "t2": [
+        "2020-03"
+      ],
+      "prop_same_meaning": 0.5157894736842106
+    }
+  }
+}

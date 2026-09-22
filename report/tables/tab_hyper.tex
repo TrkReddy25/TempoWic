@@ -1,0 +1,17 @@
+\begin{tabular}{@{}ll@{}}
+\toprule
+Setting & Value \\
+\midrule
+Encoder & RoBERTa-base (12 layers, 768 dim, 125M parameters) \\
+Maximum sequence length & 128 word pieces \\
+Optimiser & AdamW, weight decay 0.01 \\
+Learning rate & $2\times10^{-5}$, linear decay, 10\% warm-up \\
+Batch size & 16 \\
+Epochs & 4 (best validation epoch kept) \\
+Seeds & 3 \\
+Hardware & 2 CPU cores, no GPU \\
+Training time & $\approx$40 min per seed \\
+Threshold (unsupervised scores) & tuned on validation for macro-F1 \\
+Logistic regression & standardised features, $L_2$, $C=1$ \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,45 @@
+======================================================================
+PASS  n_compare: pipeline=3297.000000 recomputed=3297.000000
+PASS  n_earlier: pipeline=3400.000000 recomputed=3400.000000
+PASS  n_words: pipeline=34.000000 recomputed=34.000000
+PASS  duplicate use pairs within a group: 0
+PASS  EARLIER pairs spanning two years: 0
+PASS  COMPARE pairs inside one year: 0
+PASS  zero-shot cos_L5 test macro-F1: pipeline=0.635841 recomputed=0.635841
+PASS  zero-shot cos_L12 test macro-F1: pipeline=0.680313 recomputed=0.680313
+PASS  zero-shot jaccard test macro-F1: pipeline=0.535228 recomputed=0.535228
+PASS  fine-tuned seed13 test macro-F1: pipeline=0.598556 recomputed=0.598556
+PASS  fine-tuned seed42 test macro-F1: pipeline=0.631038 recomputed=0.631038
+PASS  fine-tuned seed7 test macro-F1: pipeline=0.626457 recomputed=0.626457
+PASS  parasol DELTA_LATER[cos_L5]: pipeline=0.077449 recomputed=0.077450
+PASS  parasol COMPARE[cos_L5]: pipeline=2.890943 recomputed=2.890943
+PASS  moxie DELTA_LATER[cos_L5]: pipeline=0.191134 recomputed=0.191134
+PASS  moxie COMPARE[cos_L5]: pipeline=2.906257 recomputed=2.906257
+PASS  folklore DELTA_LATER[cos_L5]: pipeline=0.177840 recomputed=0.177841
+PASS  folklore COMPARE[cos_L5]: pipeline=2.837968 recomputed=2.837967
+PASS  unlabeled DELTA_LATER[cos_L5]: pipeline=-0.190225 recomputed=-0.190225
+PASS  unlabeled COMPARE[cos_L5]: pipeline=2.669198 recomputed=2.669198
+PASS  vanguard DELTA_LATER[cos_L5]: pipeline=0.265322 recomputed=0.265322
+PASS  vanguard COMPARE[cos_L5]: pipeline=2.661714 recomputed=2.661713
+PASS  epicenter DELTA_LATER[cos_L5]: pipeline=0.231557 recomputed=0.231557
+PASS  epicenter COMPARE[cos_L5]: pipeline=2.950223 recomputed=2.950223
+PASS  bunker DELTA_LATER[cos_L5]: pipeline=0.202979 recomputed=0.202979
+PASS  bunker COMPARE[cos_L5]: pipeline=2.850143 recomputed=2.850144
+PASS  gaza DELTA_LATER[cos_L5]: pipeline=0.222031 recomputed=0.222032
+PASS  gaza COMPARE[cos_L5]: pipeline=2.773265 recomputed=2.773265
+PASS  mask DELTA_LATER[cos_L5]: pipeline=0.070436 recomputed=0.070436
+PASS  mask COMPARE[cos_L5]: pipeline=2.963191 recomputed=2.963190
+PASS  frisk DELTA_LATER[cos_L5]: pipeline=0.384416 recomputed=0.384416
+PASS  frisk COMPARE[cos_L5]: pipeline=2.754281 recomputed=2.754281
+PASS  parasol gold change rate: pipeline=0.850000 recomputed=0.850000
+PASS  moxie gold change rate: pipeline=0.835052 recomputed=0.835052
+PASS  folklore gold change rate: pipeline=0.921053 recomputed=0.921053
+PASS  unlabeled gold change rate: pipeline=0.900000 recomputed=0.900000
+PASS  vanguard gold change rate: pipeline=0.959596 recomputed=0.959596
+PASS  rho(COMPARE[cos_L5], change rate): pipeline=-0.606051 recomputed=-0.606051
+PASS  report macro numTotalPairs: pipeline=10097.000000 recomputed=10097.000000
+PASS  report macro zsF: pipeline=63.600000 recomputed=63.600000
+PASS  report macro ftF: pipeline=61.900000 recomputed=61.900000
+PASS  report macro rhoCompare: pipeline=-0.610000 recomputed=-0.610000
+======================================================================
+42 checks passed, 0 failed

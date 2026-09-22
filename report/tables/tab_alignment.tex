@@ -1,0 +1,19 @@
+\begin{tabular}{@{}lll@{}}
+\toprule
+Element & \citet{schlechtweg2018durel} & This report \\
+\midrule
+Corpus & DTA, German historical prose & TempoWiC, English tweets \\
+Time periods & 1750--1800 vs.\ 1850--1900 & year $Y$ vs.\ $Y{+}1$ (2019--2021) \\
+Definition of a use & sentence, with neighbouring sentences & one tweet \\
+Target words & 22 & 34 \\
+Use pairs & 1{,}320 & 10{,}097 \\
+Pairs per word and group & 20 & 100 (EARLIER / LATER) \\
+Groups & EARLIER, LATER, COMPARE & identical \\
+Relatedness scale & 1--4, 0 = cannot decide & 1--4, mapped from model scores \\
+Raters$^\dagger$ & 5 human annotators & 5 relatedness models \\
+Within-period pairs$^\dagger$ & sampled from the corpus & sampled from TempoWiC's tweets \\
+Agreement analysis & pairwise Spearman between raters & identical, plus vs.\ gold labels \\
+Change measures & $\Delta$LATER, COMPARE, $\Delta$COMPARE & identical \\
+Validation of measures$^\dagger$ & qualitative, historical dictionaries & numerical, vs.\ human change rate \\
+\bottomrule
+\end{tabular}

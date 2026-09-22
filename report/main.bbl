@@ -1,0 +1,112 @@
+\begin{thebibliography}{13}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Schlechtweg et~al.(2018)Schlechtweg, Schulte~im Walde, and
+  Eckmann]{schlechtweg2018durel}
+Dominik Schlechtweg, Sabine Schulte~im Walde, and Stefanie Eckmann.
+\newblock {DURel}: A framework for the annotation of lexical semantic change.
+\newblock In \emph{Proceedings of the 2018 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies}, pages 169--174, 2018.
+\newblock arXiv:1804.06517.
+
+\bibitem[Loureiro et~al.(2022{\natexlab{a}})Loureiro, D'Souza, Muhajab, White,
+  Wong, Espinosa-Anke, Neves, Barbieri, and
+  Camacho-Collados]{loureiro2022tempowic}
+Daniel Loureiro, Aminette D'Souza, Areej~Nasser Muhajab, Isabella~A. White,
+  Gabriel Wong, Luis Espinosa-Anke, Leonardo Neves, Francesco Barbieri, and
+  Jose Camacho-Collados.
+\newblock {TempoWiC}: An evaluation benchmark for detecting meaning shift in
+  social media.
+\newblock In \emph{Proceedings of the 29th International Conference on
+  Computational Linguistics}, pages 3353--3359, 2022{\natexlab{a}}.
+
+\bibitem[Brown(2008)]{brown2008choosing}
+Susan~Windisch Brown.
+\newblock Choosing sense distinctions for {WSD}: Psycholinguistic evidence.
+\newblock In \emph{Proceedings of the 46th Annual Meeting of the Association
+  for Computational Linguistics on Human Language Technologies: Short Papers},
+  pages 249--252, 2008.
+
+\bibitem[Erk et~al.(2013)Erk, McCarthy, and Gaylord]{erk2013measuring}
+Katrin Erk, Diana McCarthy, and Nicholas Gaylord.
+\newblock Measuring word meaning in context.
+\newblock \emph{Computational Linguistics}, 39\penalty0 (3):\penalty0 511--554,
+  2013.
+
+\bibitem[Schlechtweg et~al.(2021)Schlechtweg, Tahmasebi, Hengchen, Dubossarsky,
+  and McGillivray]{schlechtweg2021dwug}
+Dominik Schlechtweg, Nina Tahmasebi, Simon Hengchen, Haim Dubossarsky, and
+  Barbara McGillivray.
+\newblock {DWUG}: A large resource of diachronic word usage graphs in four
+  languages.
+\newblock In \emph{Proceedings of the 2021 Conference on Empirical Methods in
+  Natural Language Processing}, pages 7079--7091, 2021.
+
+\bibitem[Schlechtweg et~al.(2020)Schlechtweg, McGillivray, Hengchen,
+  Dubossarsky, and Tahmasebi]{schlechtweg2020semeval}
+Dominik Schlechtweg, Barbara McGillivray, Simon Hengchen, Haim Dubossarsky, and
+  Nina Tahmasebi.
+\newblock {SemEval-2020} task 1: Unsupervised lexical semantic change
+  detection.
+\newblock In \emph{Proceedings of the Fourteenth Workshop on Semantic
+  Evaluation}, pages 1--23, 2020.
+
+\bibitem[Pilehvar and Camacho-Collados(2019)]{pilehvar2019wic}
+Mohammad~Taher Pilehvar and Jose Camacho-Collados.
+\newblock {WiC}: the word-in-context dataset for evaluating context-sensitive
+  meaning representations.
+\newblock In \emph{Proceedings of the 2019 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies}, pages 1267--1273, 2019.
+
+\bibitem[Hamilton et~al.(2016)Hamilton, Leskovec, and
+  Jurafsky]{hamilton2016cultural}
+William~L. Hamilton, Jure Leskovec, and Dan Jurafsky.
+\newblock Cultural shift or linguistic drift? comparing two computational
+  measures of semantic change.
+\newblock In \emph{Proceedings of the 2016 Conference on Empirical Methods in
+  Natural Language Processing}, pages 2116--2121, 2016.
+
+\bibitem[Kutuzov et~al.(2018)Kutuzov, {\O}vrelid, Szymanski, and
+  Velldal]{kutuzov2018survey}
+Andrey Kutuzov, Lilja {\O}vrelid, Terrence Szymanski, and Erik Velldal.
+\newblock Diachronic word embeddings and semantic shifts: A survey.
+\newblock In \emph{Proceedings of the 27th International Conference on
+  Computational Linguistics}, pages 1384--1397, 2018.
+
+\bibitem[Giulianelli et~al.(2020)Giulianelli, Del~Tredici, and
+  Fern{\'a}ndez]{giulianelli2020analysing}
+Mario Giulianelli, Marco Del~Tredici, and Raquel Fern{\'a}ndez.
+\newblock Analysing lexical semantic change with contextualised word
+  representations.
+\newblock In \emph{Proceedings of the 58th Annual Meeting of the Association
+  for Computational Linguistics}, pages 3960--3973, 2020.
+
+\bibitem[Loureiro et~al.(2022{\natexlab{b}})Loureiro, Barbieri, Neves,
+  Espinosa-Anke, and Camacho-Collados]{loureiro2022timelms}
+Daniel Loureiro, Francesco Barbieri, Leonardo Neves, Luis Espinosa-Anke, and
+  Jose Camacho-Collados.
+\newblock {TimeLMs}: Diachronic language models from {Twitter}.
+\newblock In \emph{Proceedings of the 60th Annual Meeting of the Association
+  for Computational Linguistics: System Demonstrations}, pages 251--260,
+  2022{\natexlab{b}}.
+
+\bibitem[Honnibal et~al.(2020)Honnibal, Montani, Van~Landeghem, and
+  Boyd]{honnibal2020spacy}
+Matthew Honnibal, Ines Montani, Sofie Van~Landeghem, and Adriane Boyd.
+\newblock {spaCy}: Industrial-strength natural language processing in python,
+  2020.
+
+\bibitem[Lyu et~al.(2022)Lyu, Zhou, and Ji]{lyu2022mllabs}
+Chenyang Lyu, Yongxin Zhou, and Tianbo Ji.
+\newblock {MLLabs-LIG} at {TempoWiC} 2022: A generative approach for examining
+  temporal meaning shift.
+\newblock In \emph{Proceedings of the First Workshop on Ever Evolving NLP
+  (EvoNLP)}, pages 1--6, 2022.
+
+\end{thebibliography}

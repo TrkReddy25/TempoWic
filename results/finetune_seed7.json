@@ -1,0 +1,63 @@
+{
+  "seed": 7,
+  "args": {
+    "model": "/home/claude/models/roberta-base-spacy",
+    "epochs": 4,
+    "lr": 2e-05,
+    "batch_size": 16,
+    "max_len": 128,
+    "seed": 7,
+    "out_dir": "/home/claude/models/tempowic-ft-s7"
+  },
+  "best_epoch": 3,
+  "validation": {
+    "macro_f1": 0.6674077367718987,
+    "f1_same": 0.5641025641025641,
+    "f1_diff": 0.7707129094412332,
+    "accuracy": 0.6994949494949495
+  },
+  "test": {
+    "macro_f1": 0.6264567021152273,
+    "f1_same": 0.4547738693467337,
+    "f1_diff": 0.7981395348837209,
+    "accuracy": 0.7053632043448744
+  },
+  "history": [
+    {
+      "epoch": 0,
+      "validation": {
+        "macro_f1": 0.6433860316189713,
+        "f1_same": 0.5263157894736842,
+        "f1_diff": 0.7604562737642585,
+        "accuracy": 0.6818181818181818
+      }
+    },
+    {
+      "epoch": 1,
+      "validation": {
+        "macro_f1": 0.6530030703418774,
+        "f1_same": 0.5574912891986062,
+        "f1_diff": 0.7485148514851485,
+        "accuracy": 0.6792929292929293
+      }
+    },
+    {
+      "epoch": 2,
+      "validation": {
+        "macro_f1": 0.6563558491728019,
+        "f1_same": 0.5539568345323741,
+        "f1_diff": 0.7587548638132295,
+        "accuracy": 0.6868686868686869
+      }
+    },
+    {
+      "epoch": 3,
+      "validation": {
+        "macro_f1": 0.6674077367718987,
+        "f1_same": 0.5641025641025641,
+        "f1_diff": 0.7707129094412332,
+        "accuracy": 0.6994949494949495
+      }
+    }
+  ]
+}
